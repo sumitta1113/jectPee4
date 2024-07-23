@@ -83,7 +83,7 @@ def process_video(file):
     first_match_time = None
     last_match_time = None
 
-    frame_skip = 20  # จำนวนเฟรมที่จะข้าม (สามารถเพิ่มได้ตามต้องการ)
+    frame_skip = 20  # จำนวนเฟรมที่จะข้าม
     resize_scale = 0.5  # สเกลสำหรับลดขนาดเฟรม
 
     fps = video_capture.get(cv2.CAP_PROP_FPS)
